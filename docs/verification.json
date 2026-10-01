@@ -1,0 +1,268 @@
+{
+  "version": "0.9.0",
+  "created_utc": "2026-10-01T13:02:41.149619+00:00",
+  "runtime_checks": 304,
+  "package_checks": 23,
+  "environments": [
+    {
+      "os": "Windows",
+      "qgis": "3.44.13",
+      "qt": "5.15.13",
+      "python": "3.12.13",
+      "gdal": "3.13.2",
+      "checks": 152,
+      "suites": [
+        {
+          "name": "coordinate_roundtrip",
+          "checks": 16,
+          "passed": true
+        },
+        {
+          "name": "kml_presentation",
+          "checks": 12,
+          "passed": true
+        },
+        {
+          "name": "geodesic_measurements",
+          "checks": 25,
+          "passed": true
+        },
+        {
+          "name": "public_schema",
+          "checks": 17,
+          "passed": true
+        },
+        {
+          "name": "source_flow",
+          "checks": 16,
+          "passed": true
+        },
+        {
+          "name": "comparison_csv",
+          "checks": 14,
+          "passed": true
+        },
+        {
+          "name": "general_vector",
+          "checks": 23,
+          "passed": true
+        },
+        {
+          "name": "first_run",
+          "checks": 10,
+          "passed": true
+        },
+        {
+          "name": "clean_zip",
+          "checks": 10,
+          "passed": true
+        },
+        {
+          "name": "lifecycle",
+          "checks": 3,
+          "passed": true
+        },
+        {
+          "name": "xml_security",
+          "checks": 6,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "os": "Windows",
+      "qgis": "4.2.1",
+      "qt": "6.11.0",
+      "python": "3.12.13",
+      "gdal": "3.13.2",
+      "checks": 152,
+      "suites": [
+        {
+          "name": "coordinate_roundtrip",
+          "checks": 16,
+          "passed": true
+        },
+        {
+          "name": "kml_presentation",
+          "checks": 12,
+          "passed": true
+        },
+        {
+          "name": "geodesic_measurements",
+          "checks": 25,
+          "passed": true
+        },
+        {
+          "name": "public_schema",
+          "checks": 17,
+          "passed": true
+        },
+        {
+          "name": "source_flow",
+          "checks": 16,
+          "passed": true
+        },
+        {
+          "name": "comparison_csv",
+          "checks": 14,
+          "passed": true
+        },
+        {
+          "name": "general_vector",
+          "checks": 23,
+          "passed": true
+        },
+        {
+          "name": "first_run",
+          "checks": 10,
+          "passed": true
+        },
+        {
+          "name": "clean_zip",
+          "checks": 10,
+          "passed": true
+        },
+        {
+          "name": "lifecycle",
+          "checks": 3,
+          "passed": true
+        },
+        {
+          "name": "xml_security",
+          "checks": 6,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "package": {
+    "file": "parsel_donusturucu-0.9.0.zip",
+    "bytes": 122061,
+    "sha256": "e64f1e8300d2bfcca131cf173d178ca6f47c8493465d38713b68300127f39df5"
+  },
+  "package_check_results": [
+    {
+      "name": "archive_integrity",
+      "passed": true
+    },
+    {
+      "name": "one_safe_root",
+      "passed": true
+    },
+    {
+      "name": "exact_manifest",
+      "passed": true
+    },
+    {
+      "name": "archive_matches_source",
+      "passed": true
+    },
+    {
+      "name": "no_binary_raw_data_profile_payload",
+      "passed": true
+    },
+    {
+      "name": "no_personal_absolute_paths",
+      "passed": true
+    },
+    {
+      "name": "no_local_endpoint",
+      "passed": true
+    },
+    {
+      "name": "python39_syntax",
+      "passed": true
+    },
+    {
+      "name": "no_ai_mcp_network_shell_imports",
+      "passed": true
+    },
+    {
+      "name": "under_25mb",
+      "passed": true
+    },
+    {
+      "name": "no_internal_publication_status_in_zip",
+      "passed": true
+    },
+    {
+      "name": "metric_and_source_preservation_documented",
+      "passed": true
+    },
+    {
+      "name": "version_still_090",
+      "passed": true
+    },
+    {
+      "name": "license_author_contact_retained",
+      "passed": true
+    },
+    {
+      "name": "all_fresh_runtime_checks_same_zip",
+      "passed": true
+    },
+    {
+      "name": "bandit_no_issues_or_errors",
+      "passed": true
+    },
+    {
+      "name": "secrets_no_findings",
+      "passed": true
+    },
+    {
+      "name": "no_pyflakes_or_syntax_errors",
+      "passed": true
+    },
+    {
+      "name": "public_repository_matches_install_package",
+      "passed": true
+    },
+    {
+      "name": "public_attribution_and_no_personal_paths",
+      "passed": true
+    },
+    {
+      "name": "portable_public_test_scripts",
+      "passed": true
+    },
+    {
+      "name": "publication_contains_no_pdf_or_pdf_links",
+      "passed": true
+    },
+    {
+      "name": "documentation_links_resolve",
+      "passed": true
+    }
+  ],
+  "static_checks": [
+    {
+      "tool": "black_original",
+      "passed": true
+    },
+    {
+      "tool": "black",
+      "passed": true
+    },
+    {
+      "tool": "flake8",
+      "passed": true
+    },
+    {
+      "tool": "bandit",
+      "passed": true
+    },
+    {
+      "tool": "secrets",
+      "passed": true
+    }
+  ],
+  "portable_tests": {
+    "checks": 28,
+    "qgis": "4.2.1",
+    "passed": true
+  },
+  "limitations": [
+    "Other operating systems and QGIS versions unverified.",
+    "Numerical tests do not certify source survey accuracy."
+  ]
+}

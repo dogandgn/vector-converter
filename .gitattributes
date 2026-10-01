@@ -1,0 +1,5 @@
+# Preserve delivered plugin bytes for reproducible installation packages.
+* -text
+*.pdf binary
+*.png binary
+*.zip binary

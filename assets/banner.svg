@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Vector Converter</title>
+  <desc id="desc">QGIS Desktop için toplu vektör ve parsel dönüşümü. İki çalışma modu, üç girdi ailesi ve dört çıktı biçimi.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#112b38"/><stop offset="1" stop-color="#183f49"/></linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#7fe1cb" stroke-opacity=".09"/></pattern>
+  </defs>
+  <rect width="1280" height="420" rx="20" fill="url(#bg)"/>
+  <rect x="670" width="610" height="420" fill="url(#grid)"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="56" y="44" width="148" height="31" rx="15" fill="#267263"/>
+    <text x="130" y="65" fill="#d6fff2" text-anchor="middle" font-size="14" font-weight="600">QGIS DESKTOP</text>
+    <text x="56" y="149" fill="#fff" font-size="58" font-weight="700">Vector Converter</text>
+    <text x="58" y="194" fill="#bedbdc" font-size="23">Toplu vektör ve parsel dönüşümü</text>
+    <text x="58" y="237" fill="#91b7bb" font-size="17">İncele · Karşılaştır · Düzenle · Dönüştür</text>
+    <g font-size="17" fill="#d9efec">
+      <rect x="56" y="286" width="182" height="66" rx="12" fill="#214854"/><text x="75" y="312" font-size="25" font-weight="700" fill="#8ae7c9">2</text><text x="75" y="337">Çalışma modu</text>
+      <rect x="252" y="286" width="182" height="66" rx="12" fill="#214854"/><text x="271" y="312" font-size="25" font-weight="700" fill="#8ae7c9">3</text><text x="271" y="337">Girdi ailesi</text>
+      <rect x="448" y="286" width="182" height="66" rx="12" fill="#214854"/><text x="467" y="312" font-size="25" font-weight="700" fill="#8ae7c9">4</text><text x="467" y="337">Çıktı biçimi</text>
+    </g>
+    <text x="58" y="389" fill="#7fa8ae" font-size="13">0.9.0  /  Python · PyQGIS · GDAL/OGR  /  GPL-3.0-or-later</text>
+  </g>
+  <g fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M801 92L943 68L981 173L858 217L791 165Z" fill="#55c798" fill-opacity=".13" stroke="#72dbaf" stroke-width="3"/>
+    <path d="M946 216L1134 152L1182 270L1053 329L970 295Z" fill="#5fc8e0" fill-opacity=".12" stroke="#76d0e7" stroke-width="3"/>
+    <path d="M730 286L844 278L899 321L1008 283L1115 358" stroke="#e8c98c" stroke-width="5"/>
+    <path d="M779 335L844 278L835 170L906 146L1040 108L1144 83" stroke="#e8c98c" stroke-width="3"/>
+    <g stroke="#11313b" stroke-width="3" fill="#b9f4e3"><circle cx="801" cy="92" r="6"/><circle cx="943" cy="68" r="6"/><circle cx="981" cy="173" r="6"/><circle cx="858" cy="217" r="6"/><circle cx="791" cy="165" r="6"/></g>
+    <g fill="#ffe7b6" stroke="#11313b" stroke-width="3"><circle cx="844" cy="278" r="8"/><circle cx="906" cy="146" r="8"/><circle cx="1040" cy="108" r="8"/></g>
+  </g>
+</svg>

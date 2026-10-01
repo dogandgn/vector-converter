@@ -1,0 +1,19 @@
+[general]
+name=Parsel Dönüştürücü
+description=Review and batch-convert 2D vector and parcel files with attribute mapping, duplicate checks and coordinate transformation.
+version=0.9.0
+qgisMinimumVersion=3.34
+qgisMaximumVersion=4.99
+author=dogandgn
+license=GPL-3.0-or-later
+email=doganaric@gmail.com
+about=SHP/ZIP, KML/KMZ ve GeoJSON dosyalarını klasörden tarar; Genel vektör veya Parsel dönüşümü modunda kayıtları karşılaştırır. Genel mod iki boyutlu nokta, çizgi ve poligonları; parsel modu idari parsel kimliğiyle poligonları işler. Dosya/kayıt seçimi, kaynak önceliği, öznitelik düzenleme, toplu çıktı koordinatı, GPKG/GDB/GeoJSON/KML aktarımı, kaynak izleme ve CSV/HTML/JSON raporları sunar. QGIS Desktop 3.34–4.x, Python 3.9+ ve GDAL 3.6+ gerekir. Doğrulanmış ortamlar Windows QGIS 3.44.13/Qt5 ve 4.2.1/Qt6'dır. FileGDB yazımı Windows ve OpenFileGDB desteği gerektirir. Gerçek Z/M, karma GeometryCollection ve epoka bağlı dinamik dönüşüm desteklenmez.
+category=Vector
+tags=vector,conversion,parcel,coordinates,attributes,geopackage,kml,geojson
+experimental=True
+icon=icon.svg
+hasProcessingProvider=False
+changelog=0.9.0: Genel vektör ve parsel modları; nokta/çizgi/poligon dönüşümü, kesin tekrarlar ve katman benzerlikleri. Çıktıda yalnız kaynak öznitelikleri ve eksikse m²/metre Shape_Area/Shape_Length; derece koordinatlı çıktıda elipsoid ölçümü. KML kayıt adları ve öznitelik bilgi balonu; genel vektörde ad sütunu seçimi. İşlem bilgileri yan dosya ve raporlarda. Toplu koordinat, çıktı sütunları, okunabilir sonuç tablosu ve CSV. Taşınabilir ZIP kurulumu.
+homepage=https://github.com/dogandgn/vector-converter
+repository=https://github.com/dogandgn/vector-converter
+tracker=https://github.com/dogandgn/vector-converter/issues
